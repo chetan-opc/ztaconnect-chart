@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  teleport-cluster:
+  - apiVersion: v2
+    appVersion: 13.0.0-dev
+    created: "2023-02-13T20:11:40.954534281+05:30"
+    dependencies:
+    - condition: installCRDs,operator.enabled
+      name: teleport-operator
+      repository: ""
+      version: 13.0.0-dev
+    description: Teleport is a unified access plane for your infrastructure
+    digest: 1b5da83612717593d549e6702b6e6b9d0b4afd521cba2dcb58821341e50ea7d9
+    icon: https://goteleport.com/images/logos/logo-teleport-square.svg
+    keywords:
+    - Teleport
+    name: teleport-cluster
+    urls:
+    - https://github.com/chetan-opc/ztaconnect-chart/teleport-cluster-13.0.0-dev.tgz
+    version: 13.0.0-dev
+generated: "2023-02-13T20:11:40.949906997+05:30"
